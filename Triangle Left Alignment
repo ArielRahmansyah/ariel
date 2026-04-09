@@ -1,0 +1,6 @@
+n = int(input("Masukkan jumlah baris: "))
+for i in range(1, n + 1):
+    # => jika tidak dimulai dari 1 maka indexnya 0 dan tidak akan ada bintang yang di cetak
+    for j in range(i):
+        print("*", end="")
+    print()
