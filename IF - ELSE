@@ -1,0 +1,7 @@
+nilai = int(input("masukan Nilai: "))
+nilai_minimal_kelulusan = 75
+
+if nilai >= nilai_minimal_kelulusan:
+    print("Selamat, Anda Lulus")
+else:
+    print("Maaf, Anda Tidak Lulus")
