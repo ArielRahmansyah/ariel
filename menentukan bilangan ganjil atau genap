@@ -1,0 +1,6 @@
+
+a = int(input("Masukkan angka: "))
+if a % 2 == 0:
+    print("genap")
+else:
+    print("ganjil")
